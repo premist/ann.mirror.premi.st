@@ -1,0 +1,20 @@
+name: ann.mirror.premi.st
+description: mirror announcements
+
+encoding: utf-8
+
+gems: [jekyll-paginate]
+
+author: minku lee
+paginate: 20
+paginate_path: "p:num"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+domain: http://ann.mirror.premi.st
+
+exclude: ["node_modules", "Gemfile", "Gemfile.lock", "gulpfile.js", "package.json", "README.md"]
+timezone: Asia/Seoul
